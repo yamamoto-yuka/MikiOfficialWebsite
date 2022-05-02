@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "CorporateLogo";
+  src: url("../assets/Corporate-Logo-Rounded.ttf") format("truetype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+// Color
+$white: #fff;
+$green: #78d2ad;
+$red: #ff8f80;
+$purple: #bd82ec;
+$yellow: #f7f9a1;
+$blue: #03a2bc;
+
+$Hgreen: #539479;
+$Hred: #9e574e;
+$Hpurple: #734f91;
+$Hyellow: #979860;
+$Hblue: #037182;
+
+$font-sm: 0.75rem;
+$font-md: 1rem;
+$font-lg: 1.25rem;
+$font-xl: 1.625rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $white;
+  font-family: "Noto Sans JP", sans-serif;
+}

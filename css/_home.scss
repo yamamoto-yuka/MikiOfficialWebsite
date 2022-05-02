@@ -1,0 +1,198 @@
+.home-header {
+  background-color: $green;
+}
+.home-title {
+  padding: 20% 10%;
+}
+
+.home-img {
+  height: 25vh;
+  width: 50%;
+  margin-right: auto;
+}
+.home-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.home-description {
+  width: 70%;
+  margin-left: auto;
+  padding-top: 15%;
+  font-size: 1.5rem;
+  font-family: "CorporateLogo", sans-serif;
+}
+.home-downnav {
+  padding: 0 20%;
+}
+.circles {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid $white;
+}
+.circle2 {
+  width: 30px;
+  height: 30px;
+}
+.circle3 {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.home-wave {
+  position: relative;
+}
+
+.homewaveCanvas {
+  width: 100%;
+  margin-bottom: -6px;
+}
+.home-nav {
+  padding: 20% 0;
+}
+
+.home-nav-links {
+  margin: 0 auto;
+  padding: 0 10%;
+  text-align: center;
+  list-style: none;
+}
+.home-nav-links li {
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: $red;
+}
+
+.home-nav-links li:nth-child(2) {
+  background-color: $green;
+}
+.home-nav-links li:nth-child(3) {
+  background-color: $purple;
+}
+.home-nav-links li:nth-child(4) {
+  background-color: $yellow;
+}
+.home-nav-links li:nth-child(5) {
+  background-color: $blue;
+}
+.home-nav-links a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  padding: 10px 0;
+  font-size: $font-md;
+  font-family: "CorporateLogo", sans-serif;
+  color: $white;
+  text-decoration: none;
+}
+
+.home-nav-links li:hover {
+  background-color: $Hred;
+}
+.home-nav-links li:nth-child(2):hover {
+  background-color: $Hgreen;
+}
+.home-nav-links li:nth-child(3):hover {
+  background-color: $Hpurple;
+}
+.home-nav-links li:nth-child(4):hover {
+  background-color: $Hyellow;
+}
+.home-nav-links li:nth-child(5):hover {
+  background-color: $Hblue;
+}
+.home-footer-content {
+  background-color: $green;
+}
+
+.socialmedias {
+  justify-content: center;
+  margin: -1 auto;
+  padding: 10% 10%;
+  list-style: none;
+}
+.socialmedias a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin-right: 10px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: $green;
+  background-color: $white;
+}
+.socialmedias a:hover {
+  color: $white;
+  background-color: $green;
+}
+@media (min-width: 992px) {
+  .home-title {
+    padding: 8%;
+  }
+  .home-img {
+    height: 34vh;
+    margin-right: auto;
+    width: 30%;
+  }
+  .home-description {
+    width: 70%;
+    margin-left: auto;
+    padding: 0;
+    font-size: 1.8rem;
+  }
+  .home-nav {
+    padding: 10% 0;
+  }
+
+  .home-nav-links li {
+    height: 60px;
+  }
+
+  .home-nav-links a {
+    padding: 16px 0;
+    font-size: $font-lg;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-title {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+  }
+  .home-img {
+    height: 25vh;
+    width: 30%;
+    margin: 0;
+  }
+  .home-description {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  .home-nav-links {
+    display: flex;
+    justify-content: center;
+  }
+  .home-nav-links li {
+    height: 90px;
+    width: 30%;
+    margin: 10px;
+  }
+  .home-nav-links a {
+    padding: 25px 0;
+    font-size: $font-xl;
+  }
+  .home-nav {
+    padding: 5% 0;
+  }
+  .socialmedias {
+    padding: 3%;
+  }
+}
