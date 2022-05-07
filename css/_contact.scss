@@ -1,9 +1,36 @@
 .contactContainer,
 .contact-nav-links,
 .contact-socialmedias a:hover {
-  background-color: $blue;
+    background-color: $blue;
 }
 
 .contact-socialmedias a {
-  color: $blue;
+    color: $blue;
+}
+
+.ticket-booking,
+.live-booking {
+    padding: 5rem 0 3rem 0;
+    text-align: center;
+}
+
+.ticket-booking span,
+.live-booking span {
+    font-size: $font-md;
+    font-weight: bold;
+    border-bottom: 1px solid $white;
+}
+
+.ticket-booking a,
+.live-booking a {
+    color: $white;
+    text-decoration: none;
+}
+
+.ticket-booking span:hover,
+.live-booking span:hover,
+.ticket-booking a:hover,
+.live-booking a:hover {
+    color: $green;
+    border-bottom: 1px solid $green;
 }

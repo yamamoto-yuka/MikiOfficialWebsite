@@ -718,6 +718,33 @@ body {
   color: #03a2bc;
 }
 
+.ticket-booking,
+.live-booking {
+  padding: 5rem 0 3rem 0;
+  text-align: center;
+}
+
+.ticket-booking span,
+.live-booking span {
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+}
+
+.ticket-booking a,
+.live-booking a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ticket-booking span:hover,
+.live-booking span:hover,
+.ticket-booking a:hover,
+.live-booking a:hover {
+  color: #78d2ad;
+  border-bottom: 1px solid #78d2ad;
+}
+
 .category-warapper {
   display: flex;
   flex-direction: column;
