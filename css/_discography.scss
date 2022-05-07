@@ -1,9 +1,81 @@
 .discContainer,
 .disc-nav-links,
 .disc-socialmedias a:hover {
-  background-color: $purple;
+    background-color: $purple;
 }
 
 .disc-socialmedias a {
-  color: $purple;
+    color: $purple;
+}
+
+.disc-imagebox {
+    position: relative;
+}
+
+.disc-imagebox::before {
+    width: 100%;
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.disc-racbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.disc-maskbox {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.disc-maskbox .caption {
+    text-align: center;
+}
+
+.disc-maskbox .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #bc82ecc5;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.disc-maskbox:hover .mask {
+    opacity: 1;
+}
+
+.disc-maskbox img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.disc-info {
+    height: 100%;
+    color: $white;
+}
+
+.disc-info h2 {
+    font-size: $font-md;
+    font-family: "CorporateLogo";
+}
+
+.disc-info p {
+    font-size: 0.8rem;
+}
+
+.disc-btn {
+    width: 35%;
+    margin-left: auto;
 }
