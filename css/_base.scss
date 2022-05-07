@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "CorporateLogo";
-  src: url("../assets/Corporate-Logo-Rounded.ttf") format("truetype");
+    font-family: "CorporateLogo";
+    src: url("../assets/Corporate-Logo-Rounded.ttf") format("truetype");
 }
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 // Color
 $white: #fff;
 $green: #78d2ad;
@@ -11,32 +11,31 @@ $red: #ff8f80;
 $purple: #bd82ec;
 $yellow: #f7f9a1;
 $blue: #03a2bc;
-
 $Hgreen: #539479;
 $Hred: #9e574e;
 $Hpurple: #734f91;
 $Hyellow: #979860;
 $Hblue: #037182;
-
-$font-sm: 0.75rem;
-$font-md: 1rem;
-$font-lg: 1.25rem;
-$font-xl: 1.625rem;
+$font-sm: 1rem;
+$font-md: 1.25rem;
+$font-lg: 1.625rem;
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  height: 100vh;
-  color: $white;
-  font-family: "Noto Sans JP", sans-serif;
+    height: 100vh;
+    color: $white;
+    font-family: "Noto Sans JP", sans-serif;
 }
+
 .main-contents {
-  padding: 1rem;
+    padding: 2rem;
 }
+
 .main-title {
-  font-size: 2rem;
-  font-family: "CorporateLogo";
+    font-size: 2rem;
+    font-family: "CorporateLogo";
 }

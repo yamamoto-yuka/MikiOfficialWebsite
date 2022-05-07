@@ -16,7 +16,7 @@ body {
 }
 
 .main-contents {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .main-title {
@@ -123,7 +123,7 @@ body {
   width: 100%;
   display: block;
   padding: 10px 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: "CorporateLogo", sans-serif;
   color: #fff;
   text-decoration: none;
@@ -186,7 +186,7 @@ body {
 
   .home-nav-links a {
     padding: 16px 0;
-    font-size: 1.25rem;
+    font-size: 1.625rem;
   }
 }
 @media (min-width: 1200px) {
@@ -473,7 +473,7 @@ body {
 }
 
 .news-wrapper {
-  display: flex;
+  padding: 3rem 0rem;
   border-top: 1px solid #fff;
 }
 
@@ -482,14 +482,63 @@ body {
 }
 
 .news-wrapper button {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border: none;
   border-radius: 50%;
   color: #fff;
   background-color: #78d2ad;
+  font-size: 0.75rem;
+  font-weight: bold;
 }
 
+.news-wrapper button:hover {
+  background-color: #539479;
+}
+
+.news-wrapper p {
+  font-size: 0.5rem;
+  margin: 0 auto;
+}
+
+.news-wrapper h2,
+.news-wrapper h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .news-wrapper button {
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+  }
+
+  .news-wrapper h2,
+.news-wrapper h3 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .news-wrapper button {
+    height: 100px;
+    width: 100px;
+    font-weight: 1rem;
+  }
+
+  .news-container {
+    padding: 1rem 6.5rem;
+  }
+
+  .news-wrapper p {
+    font-size: 0.75rem;
+  }
+
+  .news-wrapper h2,
+.news-wrapper h3 {
+    font-size: 1.625rem;
+  }
+}
 .profileContaeinr,
 .profile-nav-links,
 .profile-socialmedias a:hover {
