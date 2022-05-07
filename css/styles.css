@@ -15,6 +15,15 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.main-contents {
+  padding: 1rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-family: "CorporateLogo";
+}
+
 .home-header {
   background-color: #78d2ad;
 }
@@ -463,12 +472,12 @@ body {
   color: #ff8f80;
 }
 
-.news-nav-links:first-child {
+.news-wrapper {
+  display: flex;
   border-top: 1px solid #fff;
 }
 
-.news-wrapper {
-  display: flex;
+.news-wrapper:last-child {
   border-bottom: 1px solid #fff;
 }
 
@@ -511,9 +520,57 @@ body {
   color: #03a2bc;
 }
 
-.categoty-wrapper {
+.category-warapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.categoty-container {
   padding: 0;
   list-style: none;
+}
+
+.category-warapper p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.category-warapper li {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.category-items {
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.category-items:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.category-items span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  transition: all 0.3s;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  background: #fff;
+}
+
+.category-items span:hover::after {
+  transform: scale(1, 1);
+}
+
+.active-category {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

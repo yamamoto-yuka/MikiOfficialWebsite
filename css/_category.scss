@@ -1,4 +1,45 @@
-.categoty-wrapper {
+.category-warapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.categoty-container {
   padding: 0;
   list-style: none;
+}
+.category-warapper p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.category-warapper li {
+  position: relative;
+  padding: 0.5rem;
+}
+.category-items {
+  font-size: 0.9rem;
+  color: $white;
+  text-decoration: none;
+}
+.category-items:hover {
+  color: $white;
+  cursor: pointer;
+}
+
+.category-items span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  height: 2px;
+  transition: all 0.3s;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  background: $white;
+}
+.category-items span:hover::after {
+  transform: scale(1, 1);
+}
+.active-category {
+  font-weight: bold;
 }

@@ -6,14 +6,13 @@
 .news-socialmedias a {
   color: $red;
 }
-.news-nav-links:first-child {
-  border-top: 1px solid $white;
-}
 .news-wrapper {
   display: flex;
+  border-top: 1px solid $white;
+}
+.news-wrapper:last-child {
   border-bottom: 1px solid $white;
 }
-
 .news-wrapper button {
   height: 100px;
   width: 100px;
