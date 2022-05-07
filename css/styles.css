@@ -10,6 +10,7 @@
 }
 
 body {
+  height: 100vh;
   color: #fff;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -139,33 +140,13 @@ body {
   background-color: #037182;
 }
 
-.home-footer-content {
+.home-footer,
+.home-socialmedias a:hover {
   background-color: #78d2ad;
 }
 
-.socialmedias {
-  justify-content: center;
-  margin: -1 auto;
-  padding: 10% 10%;
-  list-style: none;
-}
-
-.socialmedias a {
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin-right: 10px;
-  border-radius: 50%;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
+.home-socialmedias a {
   color: #78d2ad;
-  background-color: #fff;
-}
-
-.socialmedias a:hover {
-  color: #fff;
-  background-color: #78d2ad;
 }
 
 @media (min-width: 992px) {
@@ -238,10 +219,6 @@ body {
   .home-nav {
     padding: 5% 0;
   }
-
-  .socialmedias {
-    padding: 3%;
-  }
 }
 .mainwaveCanvas {
   width: 100%;
@@ -272,6 +249,7 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 0;
+  z-index: 1;
   list-style: none;
   text-align: center;
 }
@@ -446,13 +424,96 @@ body {
     transform: translateY(-6px) rotate(45deg);
   }
 }
+.footer {
+  height: 100px;
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+}
+
+.socialmedias {
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.socialmedias a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.socialmedias a:hover {
+  color: #fff;
+}
+
 .newsContainer,
-.news-nav-links {
+.news-nav-links,
+.news-socialmedias a:hover {
   background-color: #ff8f80;
 }
 
-.profileContaeinr {
+.news-socialmedias a {
+  color: #ff8f80;
+}
+
+.news-nav-links:first-child {
+  border-top: 1px solid #fff;
+}
+
+.news-wrapper {
+  display: flex;
+  border-bottom: 1px solid #fff;
+}
+
+.news-wrapper button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
   background-color: #78d2ad;
+}
+
+.profileContaeinr,
+.profile-nav-links,
+.profile-socialmedias a:hover {
+  background-color: #78d2ad;
+}
+
+.profile-socialmedias a {
+  color: #78d2ad;
+}
+
+.discContainer,
+.disc-nav-links,
+.disc-socialmedias a:hover {
+  background-color: #bd82ec;
+}
+
+.disc-socialmedias a {
+  color: #bd82ec;
+}
+
+.contactContainer,
+.contact-nav-links,
+.contact-socialmedias a:hover {
+  background-color: #03a2bc;
+}
+
+.contact-socialmedias a {
+  color: #03a2bc;
+}
+
+.categoty-wrapper {
+  padding: 0;
+  list-style: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

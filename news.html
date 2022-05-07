@@ -28,7 +28,7 @@
       <nav class="main-nav">
       <h1>
         <div class="main-img">
-        <a href="#">
+        <a href="in">
           <img class="main-logo" src="./assets/logo.png" alt="美稀" />
         </a>
         </div>
@@ -53,14 +53,14 @@
         <h2 class="main-title">ニュース</h2>
           <div class="warapper">
             <p>カテゴリー</p>
-            <ul class="categoty-wrapper d-flex">
-              <li><a href="#">全て</a></li>
-              <li><a href="#">ライブ</a></li>
-              <li><a href="#">メディア</a></li>
+            <ul class="categoty-wrapper d-flex justify-content-end">
+              <li><span data-category="all" class="active-category">全て</span></li>
+              <li><span data-category="live">ライブ</span></li>
+              <li><span data-category="media">メディア</span></li>
             </ul>
           </div>
         </div>
-      <div class="news-wrapper d-flex">
+      <div class="news-wrapper live">
           <div class="warapper">
             <p>ライブ</p>
             <h3>2022.04.04(土) 下北沢LOFT</h3>
@@ -68,25 +68,29 @@
           </div>
           <button>詳しくみる</button>
       </div>
-      <div class="news-wrapper d-flex">
+      <div class="news-wrapper media">
         <div class="warapper">
-          <p>ライブ</p>
+          <p>メディア</p>
           <h3>2022.04.04(土) 下北沢LOFT</h3>
           <h2>ハグロックフェス</h2>
         </div>
         <button>詳しくみる</button>
-    </div>
+      </div>
     </main>
-
-    <footer class="main-footer">
-      <ul class="socialmedias d-flex">
-        <li><a href="">ツイッター</a></li>
-        <li><a href="">ユーチューブ</a></li>
-        <li><a href="">エッグス</a></li>
-      </ul>
-      <small class="copyright">&copy; 2022 美稀 Official Website</small>
+   <footer class="footer text-center">
+        <ul class="socialmedias news-socialmedias d-flex">
+          <li>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </li>
+          <li><a href="">EGGS</a></li>
+        </ul>
+        <small class="copyright">&copy; 2022 美稀 Official Website</small>
     </footer>
     <script src="./js/nav.js"></script>
     <script src="./js/mainwave.js"></script>
+    <script src="./js/category.js"></script>
   </body>
 </html>

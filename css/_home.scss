@@ -104,32 +104,14 @@
 .home-nav-links li:nth-child(5):hover {
   background-color: $Hblue;
 }
-.home-footer-content {
+.home-footer,
+.home-socialmedias a:hover {
   background-color: $green;
+}
+.home-socialmedias a {
+  color: $green;
 }
 
-.socialmedias {
-  justify-content: center;
-  margin: -1 auto;
-  padding: 10% 10%;
-  list-style: none;
-}
-.socialmedias a {
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin-right: 10px;
-  border-radius: 50%;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  color: $green;
-  background-color: $white;
-}
-.socialmedias a:hover {
-  color: $white;
-  background-color: $green;
-}
 @media (min-width: 992px) {
   .home-title {
     padding: 8%;
@@ -191,8 +173,5 @@
   }
   .home-nav {
     padding: 5% 0;
-  }
-  .socialmedias {
-    padding: 3%;
   }
 }

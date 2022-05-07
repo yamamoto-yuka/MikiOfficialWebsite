@@ -1,3 +1,8 @@
-.profileContaeinr {
+.profileContaeinr,
+.profile-nav-links,
+.profile-socialmedias a:hover {
   background-color: $green;
+}
+.profile-socialmedias a {
+  color: $green;
 }

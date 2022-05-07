@@ -1,4 +1,24 @@
 .newsContainer,
-.news-nav-links {
+.news-nav-links,
+.news-socialmedias a:hover {
   background-color: $red;
+}
+.news-socialmedias a {
+  color: $red;
+}
+.news-nav-links:first-child {
+  border-top: 1px solid $white;
+}
+.news-wrapper {
+  display: flex;
+  border-bottom: 1px solid $white;
+}
+
+.news-wrapper button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  color: $white;
+  background-color: $green;
 }

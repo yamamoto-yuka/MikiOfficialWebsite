@@ -21,26 +21,46 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <header class="page-header warapper">
-      <h1>
-        <a href="#">
-          <img class="logo" src="" alt="美稀" />
-        </a>
-      </h1>
-      <nav class="main-nav warapper">
-        <ul class="main-menu-warapper">
-          <li><a href="#">ニュース</a></li>
-          <li><a href="#">プロファイル</a></li>
-          <li><a href="#">ディスコグラフィー</a></li>
+  <body class="contactContainer">
+    <header class="page-header">
+      <canvas class="mainwaveCanvas" id="mainwaveCanvas"></canvas>
+      <nav class="main-nav">
+        <h1>
+          <div class="main-img">
+            <a href="index.html">
+              <img class="main-logo" src="./assets/logo.png" alt="美稀" />
+            </a>
+          </div>
+        </h1>
+        <div class="hamburger">
+          <div class="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <ul class="main-nav-links contact-nav-links">
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="profile.html">プロファイル</a></li>
+          <li><a href="discography.html">ディスコグラフィー</a></li>
           <li><a href="#">グッズサイト</a></li>
-          <li><a href="#">コンタクト</a></li>
+          <li><a href="contact.html">コンタクト</a></li>
         </ul>
       </nav>
-      <div id="menu-hamburfer">
-        <span>ハンバーガーアイコン</span>
-      </div>
     </header>
     <main class="main-contents">
       <h2 class="main-title">コンタクト</h2>
@@ -61,13 +81,19 @@
         </div>
       </div>
     </main>
-    <footer class="main-footer">
-      <ul class="socialmedias d-flex">
-        <li><a href="">ツイッター</a></li>
-        <li><a href="">ユーチューブ</a></li>
-        <li><a href="">エッグス</a></li>
+    <footer class="footer text-center">
+      <ul class="socialmedias contact-socialmedias d-flex">
+        <li>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </li>
+        <li><a href="">EGGS</a></li>
       </ul>
       <small class="copyright">&copy; 2022 美稀 Official Website</small>
     </footer>
+    <script src="./js/nav.js"></script>
+    <script src="./js/mainwave.js"></script>
   </body>
 </html>
