@@ -1,8 +1,76 @@
 .profileContaeinr,
 .profile-nav-links,
 .profile-socialmedias a:hover {
-  background-color: $green;
+    background-color: $green;
 }
+
 .profile-socialmedias a {
-  color: $green;
+    color: $green;
+}
+
+.profile-describe {
+    margin: 0 auto;
+    padding: 3rem 0rem;
+}
+
+.profile-image-boxs {
+    height: 70%;
+    width: 70%;
+}
+
+.profile-live,
+.profile-prasonica {
+    margin-left: auto;
+}
+
+.profile-sake {
+    margin-right: auto;
+}
+
+.profile-prasonica {
+    padding-bottom: 3rem;
+}
+
+.profile-image-boxs img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.profile-describe-lg {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-describe {
+        width: 60%;
+        margin: 0 auto 0 0;
+        padding: 8rem 0rem;
+    }
+    .description-right {
+        margin: 0 0 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .profile-image-boxs {
+        height: 45%;
+        width: 45%;
+    }
+    .profile-warapper-lg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-describe {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .description-right {
+        display: none;
+    }
+    .profile-describe-lg {
+        display: block;
+    }
 }

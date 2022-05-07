@@ -96,9 +96,9 @@ body {
 }
 
 .home-nav-links li {
-  height: 50px;
+  height: 80px;
   margin-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 30px;
   background-color: #ff8f80;
 }
 
@@ -122,7 +122,7 @@ body {
   height: 100%;
   width: 100%;
   display: block;
-  padding: 10px 0;
+  padding: 7% 0;
   font-size: 1.25rem;
   font-family: "CorporateLogo", sans-serif;
   color: #fff;
@@ -158,6 +158,11 @@ body {
   color: #78d2ad;
 }
 
+@media (min-width: 768px) {
+  .home-nav-links a {
+    padding: 4.3% 0;
+  }
+}
 @media (min-width: 992px) {
   .home-title {
     padding: 8%;
@@ -355,8 +360,8 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 0;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(10px at 90% -10%);
+    -webkit-clip-path: circle(10px at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
     text-align: center;
@@ -549,6 +554,76 @@ body {
   color: #78d2ad;
 }
 
+.profile-describe {
+  margin: 0 auto;
+  padding: 3rem 0rem;
+}
+
+.profile-image-boxs {
+  height: 70%;
+  width: 70%;
+}
+
+.profile-live,
+.profile-prasonica {
+  margin-left: auto;
+}
+
+.profile-sake {
+  margin-right: auto;
+}
+
+.profile-prasonica {
+  padding-bottom: 3rem;
+}
+
+.profile-image-boxs img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.profile-describe-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-describe {
+    width: 60%;
+    margin: 0 auto 0 0;
+    padding: 8rem 0rem;
+  }
+
+  .description-right {
+    margin: 0 0 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .profile-image-boxs {
+    height: 45%;
+    width: 45%;
+  }
+
+  .profile-warapper-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-describe {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .description-right {
+    display: none;
+  }
+
+  .profile-describe-lg {
+    display: block;
+  }
+}
 .discContainer,
 .disc-nav-links,
 .disc-socialmedias a:hover {

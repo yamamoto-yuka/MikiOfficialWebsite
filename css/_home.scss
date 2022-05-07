@@ -70,9 +70,9 @@
 }
 
 .home-nav-links li {
-    height: 50px;
+    height: 80px;
     margin-bottom: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: $red;
 }
 
@@ -96,7 +96,7 @@
     height: 100%;
     width: 100%;
     display: block;
-    padding: 10px 0;
+    padding: 7% 0;
     font-size: $font-md;
     font-family: "CorporateLogo", sans-serif;
     color: $white;
@@ -130,6 +130,12 @@
 
 .home-socialmedias a {
     color: $green;
+}
+
+@media (min-width: 768px) {
+    .home-nav-links a {
+        padding: 4.3% 0;
+    }
 }
 
 @media (min-width: 992px) {
