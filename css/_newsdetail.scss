@@ -1,0 +1,48 @@
+.discdetail-imgbox {
+    height: 500px;
+    width: 100%;
+}
+
+.discdetail-imgbox img {
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.share {
+    padding-bottom: 2rem;
+}
+
+.share p {
+    font-size: 0.7rem;
+}
+
+.newsdetail-container h3,
+.newsdetail-container h2 {
+    font-size: $font-sm;
+    font-weight: bold;
+}
+
+.newsdetail-container h2 {
+    padding-bottom: 2rem;
+    font-size: $font-md;
+}
+
+.newsdetail-container p {
+    padding-bottom: 2rem;
+    font-size: $font-sm;
+}
+
+.newsdetail-btn {
+    padding: 2rem 0;
+}
+
+.btn-left {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .newsdetai-warraper {
+        padding: 3rem;
+    }
+}

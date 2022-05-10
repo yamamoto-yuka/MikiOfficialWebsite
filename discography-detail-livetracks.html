@@ -8,7 +8,7 @@
     <meta name="keywords" content="美稀,みき,ミキ,MIKI,Miki,miki,シンガーソングライター,東京都,ぷらそにか" />
     <meta name="description" content="" />
     <title>美稀 | Official Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -16,7 +16,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
 
-<body class="newsContainer">
+<body class="discContainer">
     <canvas class="mainwaveCanvas" id="mainwaveCanvas"></canvas>
     <header class="page-header">
         <nav class="main-nav">
@@ -34,7 +34,7 @@
                     <span></span>
                 </div>
             </div>
-            <ul class="main-nav-links news-nav-links">
+            <ul class="main-nav-links disc-nav-links">
                 <li><a href="news.html">ニュース</a></li>
                 <li><a href="profile.html">プロファイル</a></li>
                 <li><a href="discography.html">ディスコグラフィー</a></li>
@@ -44,54 +44,30 @@
         </nav>
     </header>
     <main class="main-contents">
-        <h2 class="main-title">ニュース</h2>
-        <div class="category-warapper">
-            <div class="text-center">
-                <p>カテゴリー</p>
-                <ul class="categoty-container d-flex justify-content-end">
-                    <li>
-                        <a class="category-items" href="news.html"><span>全て</span></a></li>
-                    <li> <a class="category-items" href="live.html"><span>ライブ</span> </a></li>
-                    <li> <a class="category-items active-category" href="media.html"><span>メディア</span></a></li>
-                </ul>
+        <h2 class="main-title">ライブトラック</h2>
+        <article class="descdetail-warapper">
+            <div class="discdetail-imgbox">
+                <a href=""><img src="./assets/CDcovers/美稀_LiveTracks1.png" alt="アルバムカバー" /></a>
             </div>
-        </div>
-        </div>
-        <div class="news-container">
-            <div class="news-wrapper live">
-                <p>ライブ</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex flex-column">
-                        <h3>2022.04.04(土) 下北沢LOFT</h3>
-                        <h2>ハグロックフェス</h2>
-                    </div>
-                    <a href="./news-detail-media.html" class="more-button">詳しくみる</a>
+            <div class="descdetail-content-warapper">
+                <h3>人魚姫は見つからない</h3>
+                <ol>
+                    <li>人魚姫は見つからない</li>
+                    <li>空さえ飛べない</li>
+                    <li>息をする</li>
+                </ol>
+                <div class="d-flex justify-content-end">
+                    <a href="" class="more-button">
+              オンライン<br />
+              ショップ <br />
+              を見る
+            </a>
                 </div>
             </div>
-            <div class="news-wrapper live">
-                <p>ライブ</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex flex-column">
-                        <h3>2022.04.04(土) 下北沢LOFT</h3>
-                        <h2>ハグロックフェス</h2>
-                    </div>
-                    <a href="./news-detail-media.html" class="more-button">詳しくみる</a>
-                </div>
-            </div>
-            <div class="news-wrapper live">
-                <p>ライブ</p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="d-flex flex-column">
-                        <h3>2022.04.04(土) 下北沢LOFT</h3>
-                        <h2>ハグロックフェス</h2>
-                    </div>
-                    <a href="./news-detail-media.html" class="more-button">詳しくみる</a>
-                </div>
-            </div>
-        </div>
+        </article>
     </main>
     <footer class="footer text-center">
-        <ul class="socialmedias news-socialmedias d-flex">
+        <ul class="socialmedias disc-socialmedias d-flex">
             <li>
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
             </li>
@@ -104,7 +80,6 @@
     </footer>
     <script src="./js/nav.js"></script>
     <script src="./js/mainwave.js"></script>
-    <script src="./js/category.js"></script>
 </body>
 
 </html>

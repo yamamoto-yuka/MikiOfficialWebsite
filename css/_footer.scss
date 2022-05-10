@@ -1,25 +1,29 @@
 .footer {
-  height: 100px;
-  overflow: hidden;
-  position: sticky;
-  top: 100%;
+    height: 100px;
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    margin-top: 3rem;
 }
+
 .socialmedias {
-  justify-content: center;
-  padding: 0;
-  list-style: none;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
 }
+
 .socialmedias a {
-  height: 50px;
-  width: 50px;
-  display: block;
-  margin: 0 0.5rem;
-  border-radius: 50%;
-  line-height: 50px;
-  text-align: center;
-  text-decoration: none;
-  background-color: $white;
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: $white;
 }
+
 .socialmedias a:hover {
-  color: $white;
+    color: $white;
 }

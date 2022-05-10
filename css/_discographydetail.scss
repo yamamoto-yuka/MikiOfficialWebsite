@@ -1,0 +1,32 @@
+.discdetail-imgbox {
+    height: 100%;
+    width: 100%;
+}
+
+.descdetail-warapper,
+.descdetail-content-warapper {
+    padding: 3rem 0;
+}
+
+.discdetail-imgbox img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.descdetail-warapper h3 {
+    font-size: $font-md;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .descdetail-warapper {
+        padding: 3rem 9rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .descdetail-warapper {
+        padding: 3rem 22rem;
+    }
+}

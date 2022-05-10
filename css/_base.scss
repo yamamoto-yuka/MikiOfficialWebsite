@@ -44,12 +44,16 @@ body {
 .more-button {
     height: 80px;
     width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 50%;
     color: $white;
     background-color: $green;
     font-size: 0.75rem;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .more-button:hover {
