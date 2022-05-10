@@ -8,7 +8,7 @@
 
 .main-img {
     height: 100%;
-    padding-left: 30%;
+    margin-left: 3rem;
 }
 
 .main-img img {
@@ -99,8 +99,7 @@
 @media screen and (max-width: 768px) {
     .main-img {
         height: 120px;
-        width: 100%;
-        padding-left: 0;
+        margin-left: 0;
     }
     .main-nav {
         justify-content: space-between;
@@ -142,8 +141,7 @@
         height: 80px;
         width: 70%;
         margin: 10px;
-    }
-    // hamburger
+    } // hamburger
     .hamburger-btn {
         position: relative;
         cursor: pointer;
@@ -168,8 +166,7 @@
     }
     .hamburger-btn span:nth-of-type(3) {
         top: 31px;
-    }
-    // active classes
+    } // active classes
     .hamburger-btn.active {
         position: fixed;
         top: 9rem;

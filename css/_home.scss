@@ -3,16 +3,13 @@
 }
 
 .home-title {
-    padding: 20% 10%;
-}
-
-.home-img {
-    height: 25vh;
+    height: 100%;
     width: 50%;
     margin-right: auto;
+    padding: 2rem;
 }
 
-.home-img img {
+.home-title img {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -21,7 +18,7 @@
 .home-description {
     width: 70%;
     margin-left: auto;
-    padding-top: 15%;
+    padding: 1rem 0;
     font-size: 1.5rem;
     font-family: "CorporateLogo", sans-serif;
 }
@@ -137,6 +134,9 @@
 }
 
 @media (min-width: 768px) {
+    .home-title {
+        padding: 6.5rem;
+    }
     .home-nav-links a {
         padding: 4.3% 0;
     }
@@ -144,12 +144,7 @@
 
 @media (min-width: 992px) {
     .home-title {
-        padding: 8%;
-    }
-    .home-img {
-        height: 34vh;
-        margin-right: auto;
-        width: 30%;
+        padding: 7rem;
     }
     .home-description {
         width: 70%;
@@ -173,16 +168,10 @@
     .home-title {
         display: flex;
         align-items: center;
-        padding: 3%;
-    }
-    .home-img {
-        height: 25vh;
-        width: 30%;
-        margin: 0;
+        padding: 1rem 7rem;
     }
     .home-description {
         width: 70%;
-        margin: 0;
         padding: 0;
         font-size: 2rem;
     }
